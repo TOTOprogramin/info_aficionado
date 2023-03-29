@@ -1,0 +1,107 @@
+/* Estilos generales */
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://guntherperu.com/img/cms/tippmannsports_90094153_206972917224437_5781155093648731811_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    
+}
+
+p {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Estilos para dispositivos móviles */
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    section {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    nav {
+        margin-bottom: 20px;
+    }
+}
+
+section{
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    background-color: #327034;
+   
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    border: solid #29eb30;
+}
+button:hover{
+    background-color: #29eb30;
+    color: #111;
+    border: solid #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
